@@ -18,6 +18,7 @@ slack slash command管理画面で、Request URLをngrokのforwardingに記載�
     
 4. slashコマンドを実行
 slack上で
-```
-/note hoge
-```
+
+    ```
+    /note hoge
+    ```
