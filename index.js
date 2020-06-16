@@ -23,13 +23,11 @@ app.get("/courses", (req, res) =>{
 })
 
 app.post("/courses", (req, res) => {
-    let {error} = validate(req.body);
-    if (error){
-        res.send(result.error.details[0].message);
-    }
+    console.log(req)
+    console.log(req.query)
     let course = {
         id: courses.length + 1,
-        name: req.body.name
+        name: req.body.text
     };
     courses.push(course);
     res.send(courses);
