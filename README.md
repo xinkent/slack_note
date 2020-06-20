@@ -9,7 +9,7 @@ Slack app for execute CRUD operation via slack slash command
     ```
 
 2. slack slash Commandを編集
-slack slash command管理画面で、Request URLをngrokのforwardingに記載されているURLに変更する。
+slack slash command管理画面で、Request URLをngrokのforwardingに記載されているURL + /notes に変更する。
 
 3. node.jsアプリケーションを起動
     ```
